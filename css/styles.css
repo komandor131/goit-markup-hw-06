@@ -27,6 +27,7 @@ body {
   background-color: var(--white);
   color: var(--slate);
   margin: 0;
+  overflow-x: hidden;
 }
 
 body.menu-open {
@@ -235,8 +236,8 @@ ul {
 
 .mobile-contacts-link.accent {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   color: var(--iris);
 }
 
