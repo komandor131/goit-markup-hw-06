@@ -870,6 +870,7 @@ address {
   justify-content: center;
   width: 16px;
   height: 16px;
+  flex-shrink: 0;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -891,6 +892,10 @@ address {
 
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-icon {
   color: var(--cloud);
+}
+
+.modal-checkbox-text {
+  display: inline;
 }
 
 .modal-privacy-link {
