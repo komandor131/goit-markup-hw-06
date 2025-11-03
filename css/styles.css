@@ -232,7 +232,7 @@ address {
 }
 
 .mobile-contacts {
-  margin-bottom: 48px;
+  margin: 168px 0 48px;
 }
 
 .mobile-contacts-list {
@@ -251,14 +251,13 @@ address {
 
 .mobile-contacts-link-accent {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   color: var(--iris);
 }
 
 .mobile-social-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 
 .mobile-social-link {
