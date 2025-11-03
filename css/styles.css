@@ -282,8 +282,6 @@ address {
 
 .hero-section {
   width: 100%;
-  max-width: 320px;
-  margin: 0 auto;
   padding: 112px 0;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
@@ -931,10 +929,6 @@ address {
     max-width: 768px;
   }
 
-  .hero-section {
-    max-width: 768px;
-  }
-
   .header-container {
     min-height: 72px;
     padding: 0 16px;
@@ -1317,12 +1311,6 @@ address {
 
   .footer-form-button {
     width: 165px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero-section {
-    max-width: 1440px;
   }
 }
 
